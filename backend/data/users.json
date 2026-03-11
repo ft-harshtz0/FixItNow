@@ -1,0 +1,55 @@
+[
+  {
+    "id": "cf7e7c58-8ee7-4d31-a858-7858d1ac6d4a",
+    "email": "user@gmail.com",
+    "password": "$2a$10$FeVu1uj5MtBKuGyp4s8XeuG0AP431MecodhK2UgL/yVbaYlMIxOYG",
+    "name": "User",
+    "role": "consumer",
+    "location": "Hyderbad",
+    "createdAt": "2025-11-30T09:25:24.319Z"
+  },
+  {
+    "id": "80f0700e-746d-4e9c-a4ea-ddeb793d33b4",
+    "email": "worker@gmail.com",
+    "password": "$2a$10$tMxE9Pa3EJyun2qFcMBzPec.3U9.grGG0XZrRic.yybNugAa4tZ/G",
+    "name": "Worker",
+    "role": "worker",
+    "location": "Hyderabad",
+    "category": "plumber",
+    "rating": 4.3,
+    "completedJobs": 3,
+    "totalRatings": 3,
+    "createdAt": "2025-11-30T09:28:25.755Z"
+  },
+  {
+    "id": "6c197196-50e7-4595-8be7-21bee088fd57",
+    "email": "worker1@gmail.com",
+    "password": "$2a$10$bEWBALIZ8oKowvCsM5Tsn.minuDI.d5tDTOd0uY9f5jDAwbeTveRG",
+    "name": "Worker1",
+    "role": "worker",
+    "location": "Hyderabad",
+    "category": "plumber",
+    "rating": 4,
+    "completedJobs": 1,
+    "totalRatings": 1,
+    "createdAt": "2025-11-30T09:33:29.310Z"
+  },
+  {
+    "id": "0fc481d3-5b02-4c91-b6dc-7e1ebec317a3",
+    "email": "testconsumer@test.com",
+    "password": "$2a$10$F0r/hebHVf4CH3Acbd8mmuq6ZOJNhIoQAUUDXBQyea4Gk7VG9mEWq",
+    "name": "Test Consumer",
+    "role": "consumer",
+    "location": "New York",
+    "createdAt": "2025-11-30T17:02:47.594Z"
+  },
+  {
+    "id": "b250b9c6-a313-4257-a2ee-b978ff96f40b",
+    "email": "user1@gmail.com",
+    "password": "$2a$10$cij./7RXzcxXxidIr4tHx.rDZXKTB448oZHnrqCdPlDfRktgEEpae",
+    "name": "user1",
+    "role": "consumer",
+    "location": "Hyderabad",
+    "createdAt": "2025-11-30T17:35:19.709Z"
+  }
+]

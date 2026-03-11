@@ -1,0 +1,399 @@
+[
+  {
+    "id": "1700f4ef-be87-46a3-b817-735b33c243f5",
+    "userId": "cf7e7c58-8ee7-4d31-a858-7858d1ac6d4a",
+    "title": "Water leakage in wall",
+    "description": "water leaking in the walll",
+    "address": "pragathi nagar",
+    "contact": "1234567890",
+    "category": "plumber",
+    "location": "Hyderbad",
+    "imagePath": "/uploads/job-images/1764494829621-767bb265-5ebd-4e16-8e96-e81bc9a8d84f.jpg",
+    "aiAnalysis": {
+      "predicted_category": "plumber",
+      "severity": "medium",
+      "issue_tags": [
+        "general repair",
+        "unclassified"
+      ],
+      "confidence": 0.5,
+      "analysis_method": "rule-based"
+    },
+    "recommendedWorkers": [],
+    "responses": [
+      {
+        "id": "ae846dc0-cff9-4b21-ae73-fbd9f044b137",
+        "workerId": "80f0700e-746d-4e9c-a4ea-ddeb793d33b4",
+        "workerName": "Worker",
+        "eta": "2hrs",
+        "cost": "100",
+        "message": "i can finish the job at the earliest",
+        "respondedAt": "2025-11-30T09:29:50.665Z"
+      },
+      {
+        "id": "e5597b1d-c1ea-4f8c-8c46-471260b240e6",
+        "workerId": "6c197196-50e7-4595-8be7-21bee088fd57",
+        "workerName": "Worker1",
+        "eta": "1 hour",
+        "cost": "20",
+        "message": "i am willing",
+        "respondedAt": "2025-11-30T09:33:45.597Z"
+      }
+    ],
+    "status": "completed",
+    "createdAt": "2025-11-30T09:27:09.632Z",
+    "completedAt": "2025-11-30T09:34:56.661Z",
+    "completedBy": "6c197196-50e7-4595-8be7-21bee088fd57"
+  },
+  {
+    "id": "293ada16-be36-45cb-8fac-e7262d22129e",
+    "userId": "cf7e7c58-8ee7-4d31-a858-7858d1ac6d4a",
+    "title": "Paint Job",
+    "description": "paint on the wall has worned out",
+    "address": "mayuri nagar",
+    "contact": "2323123211",
+    "category": "painter",
+    "location": "Hyderbad",
+    "imagePath": "/uploads/job-images/1764522620560-3147a500-4138-4ce8-b287-f39b98144669.jpg",
+    "aiAnalysis": {
+      "description": "Detected a general repair or maintenance issue. While the specific category could not be determined with high confidence, the problem appears to require professional attention. Please review the uploaded image and description for more details.",
+      "severity": "medium",
+      "issue_tags": [
+        "general repair",
+        "unclassified"
+      ],
+      "confidence": 0.5,
+      "analysis_method": "rule-based"
+    },
+    "recommendedWorkers": [],
+    "responses": [],
+    "status": "open",
+    "createdAt": "2025-11-30T17:10:20.572Z"
+  },
+  {
+    "id": "32e14515-61d9-4a20-a077-f20b79e9ffba",
+    "userId": "cf7e7c58-8ee7-4d31-a858-7858d1ac6d4a",
+    "title": "Pipe Leakage",
+    "description": "water leaking out of pipe",
+    "address": "nizampet",
+    "contact": "1234567890",
+    "category": "plumber",
+    "location": "Hyderbad",
+    "imagePath": "/uploads/job-images/1764523805410-7a23fcba-2b7e-4fd0-925b-8366773b00cb.jpg",
+    "aiAnalysis": {
+      "description": "Detected a general repair or maintenance issue. While the specific category could not be determined with high confidence, the problem appears to require professional attention. Please review the uploaded image and description for more details.",
+      "severity": "medium",
+      "issue_tags": [
+        "general repair",
+        "unclassified"
+      ],
+      "confidence": 0.5,
+      "analysis_method": "rule-based-fallback"
+    },
+    "recommendedWorkers": [
+      {
+        "workerId": "6c197196-50e7-4595-8be7-21bee088fd57",
+        "workerName": "Worker1",
+        "workerEmail": "worker1@gmail.com",
+        "category": "plumber",
+        "location": "Hyderabad",
+        "rating": 4,
+        "completedJobs": 1,
+        "score": 0.62,
+        "scoreBreakdown": {
+          "rating": 0.8,
+          "experience": 0.02,
+          "distance": 0.5,
+          "responseSpeed": 1
+        }
+      },
+      {
+        "workerId": "80f0700e-746d-4e9c-a4ea-ddeb793d33b4",
+        "workerName": "Worker",
+        "workerEmail": "worker@gmail.com",
+        "category": "plumber",
+        "location": "Hyderabad",
+        "rating": 0,
+        "completedJobs": 0,
+        "score": 0.5,
+        "scoreBreakdown": {
+          "rating": 0.5,
+          "experience": 0,
+          "distance": 0.5,
+          "responseSpeed": 1
+        }
+      }
+    ],
+    "responses": [
+      {
+        "id": "0cfc9ed7-f63b-4e2e-9b01-c0985761ae82",
+        "workerId": "80f0700e-746d-4e9c-a4ea-ddeb793d33b4",
+        "workerName": "Worker",
+        "eta": "1 hour",
+        "cost": "60",
+        "message": "can fix it asap",
+        "respondedAt": "2025-11-30T17:53:36.004Z"
+      }
+    ],
+    "status": "completed",
+    "createdAt": "2025-11-30T17:30:06.170Z",
+    "completedAt": "2025-11-30T17:54:06.806Z",
+    "completedBy": "80f0700e-746d-4e9c-a4ea-ddeb793d33b4"
+  },
+  {
+    "id": "06ba9ba5-741f-43be-8e7e-1384f91e5902",
+    "userId": "b250b9c6-a313-4257-a2ee-b978ff96f40b",
+    "title": "Pipe Leak",
+    "description": "water leaking out of pipe",
+    "address": "nizampet",
+    "contact": "1234567890",
+    "category": "plumber",
+    "location": "Hyderabad",
+    "imagePath": "/uploads/job-images/1764524152970-e1b5cfa2-491d-4b3b-9aeb-b303318f706c.jpg",
+    "aiAnalysis": {
+      "description": "Detected a general repair or maintenance issue. While the specific category could not be determined with high confidence, the problem appears to require professional attention. Please review the uploaded image and description for more details.",
+      "severity": "medium",
+      "issue_tags": [
+        "general repair",
+        "unclassified"
+      ],
+      "confidence": 0.5,
+      "analysis_method": "rule-based-fallback"
+    },
+    "recommendedWorkers": [
+      {
+        "workerId": "6c197196-50e7-4595-8be7-21bee088fd57",
+        "workerName": "Worker1",
+        "workerEmail": "worker1@gmail.com",
+        "category": "plumber",
+        "location": "Hyderabad",
+        "rating": 4,
+        "completedJobs": 1,
+        "score": 0.72,
+        "scoreBreakdown": {
+          "rating": 0.8,
+          "experience": 0.02,
+          "distance": 1,
+          "responseSpeed": 1
+        }
+      },
+      {
+        "workerId": "80f0700e-746d-4e9c-a4ea-ddeb793d33b4",
+        "workerName": "Worker",
+        "workerEmail": "worker@gmail.com",
+        "category": "plumber",
+        "location": "Hyderabad",
+        "rating": 0,
+        "completedJobs": 0,
+        "score": 0.6,
+        "scoreBreakdown": {
+          "rating": 0.5,
+          "experience": 0,
+          "distance": 1,
+          "responseSpeed": 1
+        }
+      }
+    ],
+    "responses": [],
+    "status": "open",
+    "createdAt": "2025-11-30T17:35:53.472Z"
+  },
+  {
+    "id": "45ac79aa-00d6-4f03-8822-a49efcbf59d1",
+    "userId": "b250b9c6-a313-4257-a2ee-b978ff96f40b",
+    "title": "water leak in wall",
+    "description": "water is leaking out of the walls",
+    "address": "pragathi nagar",
+    "contact": "1234567890",
+    "category": "plumber",
+    "location": "Hyderabad",
+    "imagePath": "/uploads/job-images/1764524497635-60a21512-2bf1-4533-936b-30a2f1508772.jpg",
+    "aiAnalysis": {
+      "description": "Detected a general repair or maintenance issue. While the specific category could not be determined with high confidence, the problem appears to require professional attention. Please review the uploaded image and description for more details.",
+      "severity": "medium",
+      "issue_tags": [
+        "general repair",
+        "unclassified"
+      ],
+      "confidence": 0.5,
+      "analysis_method": "rule-based-fallback"
+    },
+    "recommendedWorkers": [
+      {
+        "workerId": "6c197196-50e7-4595-8be7-21bee088fd57",
+        "workerName": "Worker1",
+        "workerEmail": "worker1@gmail.com",
+        "category": "plumber",
+        "location": "Hyderabad",
+        "rating": 4,
+        "completedJobs": 1,
+        "score": 0.72,
+        "scoreBreakdown": {
+          "rating": 0.8,
+          "experience": 0.02,
+          "distance": 1,
+          "responseSpeed": 1
+        }
+      },
+      {
+        "workerId": "80f0700e-746d-4e9c-a4ea-ddeb793d33b4",
+        "workerName": "Worker",
+        "workerEmail": "worker@gmail.com",
+        "category": "plumber",
+        "location": "Hyderabad",
+        "rating": 0,
+        "completedJobs": 0,
+        "score": 0.6,
+        "scoreBreakdown": {
+          "rating": 0.5,
+          "experience": 0,
+          "distance": 1,
+          "responseSpeed": 1
+        }
+      }
+    ],
+    "responses": [],
+    "status": "open",
+    "createdAt": "2025-11-30T17:41:38.275Z"
+  },
+  {
+    "id": "f3a5157b-2b72-46b6-942d-d1bf96a83160",
+    "userId": "cf7e7c58-8ee7-4d31-a858-7858d1ac6d4a",
+    "title": "Water leaking from the wall",
+    "description": "overhead pipes are broken causing water leaking in the ceiling",
+    "address": "nizampet",
+    "contact": "1234567890",
+    "category": "plumber",
+    "location": "Hyderbad",
+    "imagePath": "/uploads/job-images/1764525987173-710be956-7783-4a81-9d5e-fc3d78d52e84.jpg",
+    "aiAnalysis": {
+      "description": "Detected a general repair or maintenance issue. While the specific category could not be determined with high confidence, the problem appears to require professional attention. Please review the uploaded image and description for more details.",
+      "severity": "medium",
+      "issue_tags": [
+        "general repair",
+        "unclassified"
+      ],
+      "confidence": 0.5,
+      "analysis_method": "rule-based-fallback"
+    },
+    "recommendedWorkers": [
+      {
+        "workerId": "80f0700e-746d-4e9c-a4ea-ddeb793d33b4",
+        "workerName": "Worker",
+        "workerEmail": "worker@gmail.com",
+        "category": "plumber",
+        "location": "Hyderabad",
+        "rating": 4,
+        "completedJobs": 1,
+        "score": 0.62,
+        "scoreBreakdown": {
+          "rating": 0.8,
+          "experience": 0.02,
+          "distance": 0.5,
+          "responseSpeed": 1
+        }
+      },
+      {
+        "workerId": "6c197196-50e7-4595-8be7-21bee088fd57",
+        "workerName": "Worker1",
+        "workerEmail": "worker1@gmail.com",
+        "category": "plumber",
+        "location": "Hyderabad",
+        "rating": 4,
+        "completedJobs": 1,
+        "score": 0.62,
+        "scoreBreakdown": {
+          "rating": 0.8,
+          "experience": 0.02,
+          "distance": 0.5,
+          "responseSpeed": 1
+        }
+      }
+    ],
+    "responses": [
+      {
+        "id": "ff35b016-d9c6-4629-b2cd-d4b2c9237752",
+        "workerId": "80f0700e-746d-4e9c-a4ea-ddeb793d33b4",
+        "workerName": "Worker",
+        "eta": "1 hour",
+        "cost": "75",
+        "message": "can fix this asap",
+        "respondedAt": "2025-11-30T18:08:27.731Z"
+      }
+    ],
+    "status": "completed",
+    "createdAt": "2025-11-30T18:06:27.948Z",
+    "completedAt": "2025-11-30T18:09:01.621Z",
+    "completedBy": "80f0700e-746d-4e9c-a4ea-ddeb793d33b4"
+  },
+  {
+    "id": "0c3e87d0-9bf3-4595-b2d5-eef3c7ff41e4",
+    "userId": "cf7e7c58-8ee7-4d31-a858-7858d1ac6d4a",
+    "title": "Water leak in the wall",
+    "description": "water leaking inside the wall",
+    "address": "nizampet",
+    "contact": "1234567890",
+    "category": "plumber",
+    "location": "Hyderbad",
+    "imagePath": "/uploads/job-images/1764526978720-5b717db7-4d86-40d6-bcaf-d6ce3d24756d.jpg",
+    "aiAnalysis": {
+      "description": "Detected a general repair or maintenance issue. While the specific category could not be determined with high confidence, the problem appears to require professional attention. Please review the uploaded image and description for more details.",
+      "severity": "medium",
+      "issue_tags": [
+        "general repair",
+        "unclassified"
+      ],
+      "confidence": 0.5,
+      "analysis_method": "rule-based-fallback"
+    },
+    "recommendedWorkers": [
+      {
+        "workerId": "80f0700e-746d-4e9c-a4ea-ddeb793d33b4",
+        "workerName": "Worker",
+        "workerEmail": "worker@gmail.com",
+        "category": "plumber",
+        "location": "Hyderabad",
+        "rating": 4.5,
+        "completedJobs": 2,
+        "score": 0.67,
+        "scoreBreakdown": {
+          "rating": 0.9,
+          "experience": 0.04,
+          "distance": 0.5,
+          "responseSpeed": 1
+        }
+      },
+      {
+        "workerId": "6c197196-50e7-4595-8be7-21bee088fd57",
+        "workerName": "Worker1",
+        "workerEmail": "worker1@gmail.com",
+        "category": "plumber",
+        "location": "Hyderabad",
+        "rating": 4,
+        "completedJobs": 1,
+        "score": 0.62,
+        "scoreBreakdown": {
+          "rating": 0.8,
+          "experience": 0.02,
+          "distance": 0.5,
+          "responseSpeed": 1
+        }
+      }
+    ],
+    "responses": [
+      {
+        "id": "cf949c87-4e20-4be7-9bce-c6d9614a7bf4",
+        "workerId": "80f0700e-746d-4e9c-a4ea-ddeb793d33b4",
+        "workerName": "Worker",
+        "eta": "2 hours",
+        "cost": "50",
+        "message": "i can finish the job asap",
+        "respondedAt": "2025-11-30T18:24:25.397Z"
+      }
+    ],
+    "status": "completed",
+    "createdAt": "2025-11-30T18:22:59.863Z",
+    "completedAt": "2025-11-30T18:24:50.473Z",
+    "completedBy": "80f0700e-746d-4e9c-a4ea-ddeb793d33b4"
+  }
+]
